@@ -8,8 +8,44 @@
   <title>CSS Mem Slider</title>
 </head>
 <body>
-  <header class="header"></header>
-  <main class="main"></main>
+  <header class="header container">
+    <h1 class="header__title">CSS mem slider</h1>
+  </header>
+  <main class="main container">
+    <div class="slider">
+      <input class="slider__input visually-hidden" type="radio" name="slide" id="s1" checked>
+      <input class="slider__input visually-hidden" type="radio" name="slide" id="s2">
+      <input class="slider__input visually-hidden" type="radio" name="slide" id="s3">
+      <input class="slider__input visually-hidden" type="radio" name="slide" id="s4">
+      <input class="slider__input visually-hidden" type="radio" name="slide" id="s5">
+      <div class="slider__controls">
+        <label class="slider__control s1" for="s1"></label>
+        <label class="slider__control s2" for="s2"></label>
+        <label class="slider__control s3" for="s3"></label>
+        <label class="slider__control s4" for="s4"></label>
+        <label class="slider__control s5" for="s5"></label>
+      </div>
+      <div class="slider__images">
+        <div class="slider__img" id="slides__1">
+        </div>
+        <div class="slider__img" id="slides__2">
+        </div>
+        <div class="slider__img" id="slides__3">
+        </div>
+        <div class="slider__img" id="slides__4">
+        </div>
+        <div class="slider__img" id="slides__5">
+        </div>
+      </div>
+      <div class="slider__desc">
+        <p class="slider__text text1">Hmmmmm....suspicious</p>
+        <p class="slider__text text2">I will crceate my own social network with blackjack and music</p>
+        <p class="slider__text text3">Full Stack Developer</p>
+        <p class="slider__text text4">All about responsibilities</p>
+        <p class="slider__text text5">Face when you took down production</p>
+      </div>
+    </div>
+  </main>
   <footer class="footer"></footer>
 </body>
 </html>
